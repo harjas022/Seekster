@@ -1,4 +1,5 @@
 import React from 'react';
+import './../../styles/_navbar.scss';
 
 const NavBar = () => {
     return (
@@ -34,7 +35,8 @@ const NavBar = () => {
                 </svg>
             </button>
             <div className="d-none d-md-flex">
-                <ul className="navbar-nav font-weight-medium ml-5">
+                <ul id="navbar-list"
+                    className="navbar-nav font-weight-medium ml-5">
                     <li className="nav-item ml-0 mr-5">
                         <a className="nav-link text-white" href="/">For Businesses</a>
                     </li>
@@ -52,17 +54,3 @@ const NavBar = () => {
 }
 
 export default NavBar;
-
-{/* <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-    </ul>
-  </div> */}
