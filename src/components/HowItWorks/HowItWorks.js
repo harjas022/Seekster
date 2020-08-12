@@ -6,13 +6,13 @@ const HowItWorks = () => {
         <div id="how-it-works"
             className="bg-secondary d-flex flex-column align-items-center py-8">
             
-            <h5 className="text-center">
+            <h6 className="text-center">
                 Make our network of 50K workers, yours
-            </h5>
+            </h6>
 
-            <h4 className="text-center font-weight-bold d-block mx-4 mx-md-0">
+            <h5 className="text-center font-weight-bold d-block mx-4 mx-md-0">
                 Find proven essential workers ready right now
-            </h4>
+            </h5>
 
             <div className="container mt-5">
                 <div className="row">

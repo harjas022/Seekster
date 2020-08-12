@@ -16,9 +16,9 @@ const Column = (props) => {
                     </path>
             </svg>
 
-            <h5 className="font-weight-normal mt-3">
+            <h6 className="font-weight-normal mt-3">
                 {props.Caption}
-            </h5>
+            </h6>
 
         </div>
     );

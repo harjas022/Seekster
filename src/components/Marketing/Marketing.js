@@ -45,7 +45,7 @@ const Marketing = () => {
                     FOR BUSINESSES
                 </p>
                 <h3 className="mt-2">
-                    The essential staffing app <br /> for essential businesses
+                    Every business' staffing solution
                 </h3>
                 <p className="mt-3">
                     We use hi-tech to be more high-touch. That's how we deliver when you need us most.
