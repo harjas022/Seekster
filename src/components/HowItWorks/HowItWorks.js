@@ -4,7 +4,7 @@ import Column from './Column';
 const HowItWorks = () => {
     return (
         <div id="how-it-works"
-            className="bg-secondary d-flex flex-column align-items-center py-8">
+            className="bg-secondary d-flex flex-column align-items-center py-10">
             
             <h6 className="text-center">
                 Make our network of 50K workers, yours
