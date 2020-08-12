@@ -4,7 +4,7 @@ import GetStartedButton from './../Utils/GetStartedButton';
 
 const Marketing = () => {
     return (
-        <div className="d-flex flex-column flex-sm-row align-items-center justify-content-center px-4 py-8 py-md-10"
+        <div className="bg-third d-flex flex-column flex-sm-row align-items-center justify-content-center px-4 py-8 py-md-10"
             id="marketing">
             <div className="mr-4 flex-shrink-0">
                 <picture>
@@ -41,19 +41,19 @@ const Marketing = () => {
                 </picture>
             </div>
             <div className="d-flex flex-column align-items-start mt-4 mt-md-0 mx-4">
-                <p className="mt-4 font-weight-bold" style={{color: '#084E8A'}}>
+                <h6 className="mt-4 font-weight-bold" style={{color: '#084E8A'}}>
                     FOR BUSINESSES
-                </p>
-                <h3 className="mt-2">
+                </h6>
+                <h3 className="mt-2 font-weight-bold">
                     Every business' staffing solution
                 </h3>
-                <p className="mt-3">
-                    We use hi-tech to be more high-touch. That's how we deliver when you need us most.
+                <p className="mt-2" style={{color: '#454f5b', fontSize:'1rem', opacity: '80%'}}>
+                    We're able to meet your needs, through our ever growing network & cutting edge technology.
                 </p>
-                <ul className="list-unstyled" id="for-business">
-                    <li>Professionals are rigorously vetted</li>
-                    <li>97% of shifts are filled within 24 hours</li>
-                    <li>App and local teams provide real-time support</li>
+                <ul id="for-business" style={{color: '#454f5b', fontSize: '1rem', opacity: '80%'}}>
+                    <li>Within 24 hours, 97% of shifts are taken up</li>
+                    <li>Guaranteed professionals</li>
+                    <li>Get real-time support</li>
                 </ul>
                 <GetStartedButton 
                     ButtonText="Get started"
