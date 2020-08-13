@@ -5,7 +5,8 @@ class Trusted extends React.Component {
         return (
             <div className="container-fluid text-center d-block py-6"
                 id="marketingOne">
-                <h3 className="pb-md-5 pb-0">Trusted by thousands of businesses</h3>
+                <h3 className="pb-md-2 font-weight-bold">Trusted by over hundreds of businesses</h3>
+                <h6 className="pb-md-5">Don't take our word for it</h6>
 
                 <picture style={{zIndex: 1}}>
                     <source 

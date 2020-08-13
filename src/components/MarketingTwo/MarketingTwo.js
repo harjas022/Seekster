@@ -1,6 +1,6 @@
 import React from 'react';
 import GetStartedButton from './../Utils/GetStartedButton';
-// import './_marketingTwo.scss';
+import './../../styles/_marketingTwo.scss';
 
 class MarketingTwo extends React.Component {
     render() {
@@ -46,19 +46,22 @@ class MarketingTwo extends React.Component {
                 </div>
 
                 <div className="d-flex flex-column align-items-start mx-4">
-                    <p className="mt-4 font-weight-bold" style={{color: '#084E8A'}}>
+                    <h6 className="mt-4 font-weight-bold" style={{color: '#084E8A'}}>
                         FOR WORKERS
-                    </p>
-                    <h3 className="mt-2">
-                        Work where you want, <br /> when you want
+                    </h6>
+                    <h3 className="mt-2 font-weight-bold">
+                        You have control of when <br /> and where you work.
                     </h3>
-                    <p className="mt-3" style={{color: '#454f5b'}}>
-                        Thousands of professionals use Instawork to quickly find flexible work.
+                    <p className="mt-0 font-weight-bold" style={{fontSize:'1rem'}}>
+                        Join Seekwork & immediately find flexible work.
                     </p>
-                    <ul id="marketingList">
-                        <li>Set your own schedule</li>
-                        <li>Earn more money on every shift</li>
-                        <li>Learn new skills and make new connections</li>
+                    <p className="mt-2" style={{color: '#454f5b', fontSize:'1rem', opacity: '80%'}}>
+                        Let Seekwork get you everything you want from your career:
+                    </p>
+                    <ul id="marketingList" style={{color: '#454f5b', fontSize: '1rem', opacity: '80%'}}>
+                        <li>Work around your schedule</li>
+                        <li>Earn more with every shift</li>
+                        <li>Grow your network and master new skills </li>
                     </ul>
                     <div className="d-flex flex-wrap align-items-center">
                         <GetStartedButton 
