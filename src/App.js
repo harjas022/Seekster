@@ -15,7 +15,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Content />
+      <Content 
+        Title1="Seekwork links the right workers to you,"
+        Title2="when & where you need them."
+        Caption="Whether businesses seek one-time or recurring workers - Seekwork makes it happen."
+      />
       <HowItWorks />
       <Marketing />
       <Picture />

@@ -5,7 +5,7 @@ import firstPic from './../../assets/me.jpg';
 import secondPic from './../../assets/Norway.jpg'
 
 
-const Content = () => {
+const Content = (props) => {
     return (
         <div 
             id="content"
@@ -15,13 +15,12 @@ const Content = () => {
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-sm-start pt-10 py-sm-7 p-5 mt-sm-3 text-center text-sm-left">
 
                     <h1 className="text-white w-100">
-                        Seekwork links the right workers to you, 
-                        <br /> when & where you need them.
+                        {props.Title1} <br/> {props.Title2}
                     </h1>
 
                     <h5 className="font-weight-normal mt-1 w-75 text-white">
                         <small>
-                        Whether businesses seek one-time or recurring workers - Seekwork makes it happen.
+                            {props.Caption}
                         </small>
                     </h5>
 

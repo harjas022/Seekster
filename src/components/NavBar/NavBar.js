@@ -38,10 +38,10 @@ const NavBar = () => {
                 <ul id="navbar-list"
                     className="navbar-nav font-weight-medium ml-5">
                     <li className="nav-item ml-0 mr-5">
-                        <a className="nav-link text-white" href="/">For Businesses</a>
+                        <a className="nav-link text-white" href="/businesses">For Businesses</a>
                     </li>
                     <li className="nav-item ml-0 mr-5">
-                        <a className="nav-link text-white" href="/">For Workers</a>
+                        <a className="nav-link text-white" href="/workers">For Workers</a>
                     </li>
                     <li className="nav-item ml-0">
                         <a className="nav-link text-white" href="/">Log in</a>
