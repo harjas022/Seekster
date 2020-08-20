@@ -10,6 +10,8 @@ import MarketingTwo from './components/MarketingTwo/MarketingTwo';
 import WhiteBackground from './components/WhiteBackground/WhiteBackground';
 import LearningMore from './components/LearningMore/LearningMore';
 import Footer from './components/Footer/Footer';
+import Carousel from './components/Utils/Carousel';
+import firstPic from './assets/me.jpg'
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
         Title1="Seekwork links the right workers to you,"
         Title2="when & where you need them."
         Caption="Whether businesses seek one-time or recurring workers - Seekwork makes it happen."
+        BgColor="#1479ce"
+        Choice= {<Carousel 
+                  Picture1={firstPic} 
+                  Picture2={firstPic} />}
       />
       <HowItWorks />
       <Marketing />

@@ -9,8 +9,10 @@ const Content = (props) => {
     return (
         <div 
             id="content"
-            className="bg-primary position-relative d-flex flex-column flex-sm-row align-items-md-center justify-content-between">
-            
+            className="position-relative d-flex flex-column flex-sm-row align-items-md-center justify-content-between"
+            style={{backgroundColor: props.BgColor}}
+            >
+
             <div className="d-flex flex-column justify-content-between">
                 <div className="d-flex flex-column justify-content-center align-items-center align-items-sm-start pt-10 py-sm-7 p-5 mt-sm-3 text-center text-sm-left">
 
@@ -37,10 +39,13 @@ const Content = (props) => {
             </div>
 
             <div>
+                {props.Choice}
+            </div>
+            {/* <div>
                 <Carousel 
                     Picture1={firstPic}
                     Picture2={secondPic}/>
-            </div>
+            </div> */}
 
         </div>
     );

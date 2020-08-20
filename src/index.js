@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Business from './Business'
+import Workers from './Workers';
 
 
 const workers = () => (
@@ -17,7 +18,7 @@ const routes = (
     <div>
       <Route path="/" component={App} exact={true}/>
       <Route path="/businesses" component={Business}/>
-      <Route path="/workers" component={workers}/>
+      <Route path="/workers" component={Workers}/>
     </div>
   </BrowserRouter>
 );
