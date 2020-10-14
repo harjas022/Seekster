@@ -9,15 +9,15 @@ class Footer extends React.Component {
     render() {
 
         const col_1_title = 'Company';
-        const col_1 = ['About', 'Careers', 'Blog', 'Engineering Blog', 'Contact Us'];
+        const col_1 = ['About', 'Contact Us'];
         const key_1 = "companyLinks";
 
         const col_2_title = 'Business';
-        const col_2 = ['Get Started', 'Download iOS App', 'Download Android App', 'FAQ'];
+        const col_2 = ['Get Started', 'FAQ'];
         const key_2 = "businessLinks";
 
         const col_3_title = 'Workers';
-        const col_3 =['Get Started', 'Download iOS App', 'Download Android App', 'Browse Jobs', 'FAQ'];
+        const col_3 =['Get Started', 'FAQ'];
         const key_3 = "workerLinks";
 
         return (

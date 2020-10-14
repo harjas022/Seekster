@@ -11,14 +11,6 @@ const Legal = () => {
                 © 2020 Instawork
             </span>
 
-            <a href="/" className="mr-3 text-white">
-                Privacy Policy
-            </a>
-
-            <a href="/" className="mr-3 text-white">
-                Terms of Use
-            </a>
-
         </div>
     );
 }

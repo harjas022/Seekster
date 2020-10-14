@@ -2,24 +2,83 @@ import React from 'react';
 
 const SignUpForm = (props) => {
     return (
-        <div className="col-12 col-sm-10 col-lg-6 offset-lg-0 col-xl-4 offset-xl-1 d-flex flex-column align-items-center position-relative my-7 my-lg-0">
-            <div className="rounded-lg bg-white shadow-lg p-4 w-100">
-                <h5 className="h2 text-center mb-3">
-                    {props.Title}
-                </h5>
-                <form id="signUpForm ">
-                    <div className="form-row">
-                        <div className="col-12 col-sm-6">
-                            <div className="form-group">
-                                <label>First Name</label>
-                                <input type="text" name="given_name" maxLength="254"
-                                        className="form-control" placeHolder="First name"
-                                />
-                            </div>
+        <div className="rounded-lg bg-white shadow-lg p-4 mt-10 w-100">
+            <h2 className="h5 font-weight-bold text-center mb-3">
+                {props.Title}
+            </h2>
+
+            <form>
+                <div className="form-row ">
+                    <div className="col-12 col-sm-6">
+                        <div className="form-group">
+                            <label className="font-weight-bold" style={{'opacity': 0.9}} 
+                                    for="id_given_name">
+                                First Name
+                            </label>
+                            <input className="d-block w-75"
+                                    type="text" maxLength="254" placeHolder="First Name"
+                                    id="id_given_name" required/>
                         </div>
                     </div>
-                </form>
-            </div>
+                    <div className="col-12 col-sm-6">
+                        <div className="form-group">
+                            <label className="font-weight-bold" style={{'opacity': 0.9}}
+                                    for="id_last_name">
+                                Last Name
+                            </label>
+                            <input className="d-block w-75" type="text" maxLength="254"
+                                    placeHolder="Last Name" id="id_last_name" required/>
+                        </div>
+                    </div>
+                </div>
+                {props.FormBusiness && 
+                <div className="form-row">
+                    <div className="col-12 col-sm-6">
+                        <div className="form-group">
+                            <label className="font-weight-bold" style={{'opacity':0.8}}
+                                    for="id_company">
+                                Company
+                            </label>
+                            <input className="d-block w-75" type="text" maxLength="254"
+                                    placeHolder="Company" id="id_company" required/>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-6">
+                        <label className="font-weight-bold" style={{'opacity':0.8}}
+                                for="id_phone">
+                            Phone Number
+                        </label>
+                        <input className="d-block w-75" type="text" maxLength="254"
+                                placeHolder="Phone Number" id="id_phone" required/>
+                    </div>
+                </div>}
+                <div className="form-group">
+                    <label className="font-weight-bold" style={{'opacity':0.8}}
+                            for="id_email">
+                        Work Email
+                    </label>
+                    <input className="d-block w-100" type="email" name="email" 
+                            placeHolder="Email Address" id="id_email" required/>
+                </div>
+                <div className="form-group">
+                    <div>
+                        <label className="font-weight-bold" style={{'opacity':0.8}}
+                                for="id_password">
+                            Password
+                        </label>
+                        <input className="d-block w-100"
+                            type="password" name="passowrd" maxLength="255" minLength="8"
+                                placeHolder="Password" id="id_password" required/>
+
+                    </div>
+                </div>
+                
+                    <button className="btn btn-lg btn-primary w-100 mt-2" 
+                            style={{'fontSize': 1 + 'rem'}}>
+                        Sign up
+                        
+                </button>
+            </form>
         </div>
     );
 }

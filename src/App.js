@@ -22,17 +22,14 @@ function App() {
         Title2="when & where you need them."
         Caption="Whether businesses seek one-time or recurring workers - Seekwork makes it happen."
         BgColor="#1479ce"
-        Choice= {<Carousel 
-                  Picture1={firstPic} 
-                  Picture2={firstPic} />}
+        Carousel='True'
+        SignUp='True'
       />
       <HowItWorks />
       <Marketing />
       <Picture />
       <Trusted />
       <MarketingTwo />
-      <WhiteBackground />
-      <LearningMore />
       <Footer />
     </div>
   );

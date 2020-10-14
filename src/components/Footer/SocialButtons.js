@@ -3,7 +3,7 @@ import React from 'react';
 const SocialButtons = () => {
     return (
         <div id="socialButtons" className="d-flex align-items-center mr-0 mr-md-4">
-            <a href="/" className="mr-3">
+            {/* <a href="/" className="mr-3">
                 <span className="sr-only">Twitter</span>
                 <svg 
                     className="social-button" width="44" height="44" viewBox="0 0 44 44"
@@ -23,9 +23,9 @@ const SocialButtons = () => {
                         </path>
 
                 </svg>
-            </a>
+            </a> */}
         
-            <a href="/" className="mr-3">
+            <a href="https://www.facebook.com/seekster/" className="mr-3">
                 <span className="sr-only">Facebook</span>
                 <svg 
                     className="social-button" width="44" height="44" viewBox="0 0 44 44"
@@ -47,7 +47,7 @@ const SocialButtons = () => {
                 </svg>
             </a>
         
-            <a href="/" className="mr-3">
+            <a href="https://www.linkedin.com/company/seekster/" className="mr-3">
                 <span className="sr-only">LinkedIn</span>
                 <svg 
                     className="social-button" width="44" height="44" viewBox="0 0 44 44"

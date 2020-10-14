@@ -66,6 +66,7 @@ class MarketingTwo extends React.Component {
                     <div className="d-flex flex-wrap align-items-center">
                         <GetStartedButton 
                             ButtonText="Get started"
+                            Link="/workers"
                         />
                     </div>
                 

@@ -16,10 +16,10 @@ const Carousel = (props) => {
                         <img class="d-block w-100" src={props.Picture1} alt="First slide" />
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src={props.Picture1} alt="Second slide" />
+                        <img class="d-block w-100" src={props.Picture2} alt="Second slide" />
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src={props.Picture1} alt="Third slide" />
+                        <img class="d-block w-100" src={props.Picture3} alt="Third slide" />
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

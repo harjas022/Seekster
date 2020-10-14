@@ -1,15 +1,16 @@
 import React from 'react';
 import './../../styles/_navbar.scss';
+import logo from './../../assets/logo.png';
 
 const NavBar = () => {
     return (
-        <nav class="navbar navbar-expand-md py-3 py-lg-5 py-xl-7 pl-5 bg-transparent position-absolute w-100"
+        <nav className="navbar navbar-expand-md py-sm-1 py-lg-0 pl-5 bg-transparent position-absolute w-100"
             style={{zIndex: 2}}>
 
-            <a class="navbar-brand mr-0 d-flex align-items-center" href="/">
+            <a className="navbar-brand mr-0 d-flex align-items-center" href="/">
                 <img 
-                src="https://s.instawork.com/static/img/nav-logo.f7d8a765ee15.svg"
-                alt="Instawork logo"
+                src={logo}
+                alt="Seekwork logo"
                 />
             </a>
             <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,3 +52,6 @@ const NavBar = () => {
 }
 
 export default NavBar;
+
+
+// py-lg-5 py-xl-7 pl-5

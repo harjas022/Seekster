@@ -18,7 +18,8 @@ const Column = (props) => {
                     {props.Content.map((item, index) => {
                         return (
                             <li className="mb-2" key={index}>
-                                <a className="text-white" href="/">
+                                <a className="text-white" style={{opacity:0.7}}
+                                href="https://www.seekster.co/en">
                                     {item}
                                 </a>
                             </li>

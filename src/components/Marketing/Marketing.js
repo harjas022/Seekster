@@ -57,6 +57,7 @@ const Marketing = () => {
                 </ul>
                 <GetStartedButton 
                     ButtonText="Get started"
+                    Link="/businesses"
                 />
             </div>
         </div>
