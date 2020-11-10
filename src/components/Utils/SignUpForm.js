@@ -8,15 +8,14 @@ const SignUpForm = (props) => {
             </h2>
 
             <form>
-                <div className="form-row ">
-                    <div className="col-12 col-sm-6">
+                <div className="form-row">
+                    <div className="form-group col-md-6">
                         <div className="form-group">
                             <label className="font-weight-bold" style={{'opacity': 0.9}} 
                                     for="id_given_name">
                                 First Name
                             </label>
-                            <input className="d-block w-75"
-                                    type="text" maxLength="254" placeHolder="First Name"
+                            <input type="text" maxLength="254" placeHolder="First Name"
                                     id="id_given_name" required/>
                         </div>
                     </div>
@@ -26,32 +25,41 @@ const SignUpForm = (props) => {
                                     for="id_last_name">
                                 Last Name
                             </label>
-                            <input className="d-block w-75" type="text" maxLength="254"
-                                    placeHolder="Last Name" id="id_last_name" required/>
+                            <input type="text" maxLength="254" placeHolder="Last Name" 
+                                    id="id_last_name" required/>
                         </div>
                     </div>
                 </div>
+
+
                 {props.FormBusiness && 
+
                 <div className="form-row">
                     <div className="col-12 col-sm-6">
+
                         <div className="form-group">
                             <label className="font-weight-bold" style={{'opacity':0.8}}
                                     for="id_company">
                                 Company
                             </label>
-                            <input className="d-block w-75" type="text" maxLength="254"
-                                    placeHolder="Company" id="id_company" required/>
+                            <input type="text" maxLength="254" placeHolder="Company" 
+                                    id="id_company" required/>
                         </div>
+
                     </div>
+
                     <div className="col-12 col-sm-6">
                         <label className="font-weight-bold" style={{'opacity':0.8}}
                                 for="id_phone">
                             Phone Number
                         </label>
-                        <input className="d-block w-75" type="text" maxLength="254"
-                                placeHolder="Phone Number" id="id_phone" required/>
+                        <input type="text" maxLength="254" placeHolder="Phone Number" 
+                                id="id_phone" required/>
                     </div>
+
                 </div>}
+
+                
                 <div className="form-group">
                     <label className="font-weight-bold" style={{'opacity':0.8}}
                             for="id_email">
